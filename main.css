@@ -253,6 +253,10 @@ ul {
   margin-block-end: 0;
 }
 
+body {
+  background-color: #000000;
+}
+
 /* Header */
 
 header {
@@ -366,4 +370,554 @@ header button:hover {
 
 .mainText a:last-child:hover {
   text-decoration-color: #ffffff80;
+}
+
+/* Featured Section */
+
+.featured {
+  background-color: #000000;
+  padding: 50px 20px 100px;
+}
+
+.featured div {
+  display: flex;
+}
+
+.featured .item {
+  width: 25%;
+  color: #ffffff;
+  font-family: Soehne;
+  padding-right: 100px;
+  text-decoration: none;
+}
+
+.featured .item:hover p {
+  text-decoration-color: #ffffff44;
+}
+
+.featured h3 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.featured p {
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+.divider {
+  margin: 0 20px;
+  border-bottom: 1px solid #ffffff;
+}
+
+.divider.ghost {
+  border-bottom: 1px solid #ffffff66;
+}
+
+/* chatGpt Section */
+
+.chatGpt {
+  background-color: #000000;
+  color: #ffffff;
+  display: flex;
+  padding: 20px 20px 100px;
+}
+
+.chatGpt img {
+  width: 50%;
+}
+
+.chatGpt .textWrapper {
+  padding: 0px 20px;
+}
+
+.chatGpt h2 {
+  font-size: 48px;
+  font-family: Signifier;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.chatGpt p {
+  font-size: 18px;
+  font-family: Soehne;
+  margin-bottom: 20px;
+}
+
+.chatGpt .anchorWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.chatGpt a {
+  font-size: 18px;
+  font-family: Soehne;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.chatGpt a:hover {
+  text-decoration-color: #ffffff55;
+}
+
+/* Updates Section */
+
+.updateSection {
+  color: #ffffff;
+  padding: 10px 20px 100px;
+}
+
+.updateSection .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.updateSection .header h2 {
+  font-size: 48px;
+  font-family: Signifier;
+  font-weight: 400;
+}
+
+.updateSection .header button {
+  border: none;
+  background-color: transparent;
+  color: #ffffff;
+  text-decoration: underline;
+  font-size: 18px;
+  font-family: Soehne;
+}
+
+.updateSection .header button:hover {
+  text-decoration: none;
+}
+
+.updateSection .itemWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.updateSection .itemWrapper img {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.updateSection .itemWrapper .item {
+  width: 24%;
+  text-decoration: none;
+}
+
+.updateSection .itemWrapper .item:hover h3 {
+  text-decoration: underline;
+}
+
+.updateSection .item h3 {
+  font-size: 18px;
+  font-family: Soehne;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.updateSection .item p {
+  font-size: 18px;
+  font-family: Soehne;
+  color: #ffffff;
+}
+
+/* Safety Section */
+
+.safety {
+  color: #ffffff;
+}
+
+.safety .textWrapper {
+  padding: 10px 20px;
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.safety .textWrapper div {
+  width: 50%;
+}
+
+.safety .textWrapper h2 {
+  width: 50%;
+  font-size: 48px;
+  font-family: Signifier;
+  font-weight: 400;
+}
+
+.safety .textWrapper p {
+  font-size: 28px;
+  font-family: Soehne;
+  margin-bottom: 20px;
+}
+
+.safety .textWrapper a {
+  font-size: 18px;
+  font-family: Soehne;
+  color: white;
+}
+
+.safety img {
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+/* Research Section */
+
+.research {
+  color: #ffffff;
+  padding: 10px 20px 100px;
+}
+
+.research .textWrapper {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.research .textWrapper div {
+  width: 50%;
+}
+
+.research .textWrapper h2 {
+  width: 50%;
+  font-size: 48px;
+  font-family: Signifier;
+  font-weight: 400;
+}
+
+.research .textWrapper p {
+  font-size: 28px;
+  font-family: Soehne;
+  margin-bottom: 20px;
+}
+
+.research .textWrapper a {
+  font-size: 18px;
+  font-family: Soehne;
+  color: white;
+}
+
+.research .itemWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.research .itemWrapper img {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.research .itemWrapper .item {
+  width: 24%;
+  text-decoration: none;
+}
+
+.research .itemWrapper .item:hover h3 {
+  text-decoration: underline;
+}
+
+.research .item h3 {
+  font-size: 18px;
+  font-family: Soehne;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.research .item p {
+  font-size: 18px;
+  font-family: Soehne;
+  color: #ffffff;
+}
+
+/* Products Section */
+
+.product {
+  color: #ffffff;
+  padding: 10px 20px 100px;
+}
+
+.product .textWrapper {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.product .textWrapper div {
+  width: 50%;
+}
+
+.product .textWrapper h2 {
+  width: 50%;
+  font-size: 48px;
+  font-family: Signifier;
+  font-weight: 400;
+}
+
+.product .textWrapper p {
+  font-size: 28px;
+  font-family: Soehne;
+  margin-bottom: 20px;
+}
+
+.product .textWrapper a {
+  font-size: 18px;
+  font-family: Soehne;
+  color: white;
+}
+
+.product .itemWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product .itemWrapper img {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.product .itemWrapper .item {
+  width: 24%;
+  text-decoration: none;
+}
+
+.product .itemWrapper .item:hover h3 {
+  text-decoration: underline;
+}
+
+.product .item h3 {
+  font-size: 18px;
+  font-family: Soehne;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.product .item p {
+  font-size: 18px;
+  font-family: Soehne;
+  color: #ffffff;
+}
+
+/* Careers Section */
+
+.careers {
+  color: #ffffff;
+}
+
+.careers .textWrapper {
+  padding: 10px 20px;
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.careers .textWrapper div {
+  width: 50%;
+}
+
+.careers .textWrapper h2 {
+  width: 50%;
+  font-size: 48px;
+  font-family: Signifier;
+  font-weight: 400;
+}
+
+.careers .textWrapper p {
+  font-size: 28px;
+  font-family: Soehne;
+  margin-bottom: 20px;
+}
+
+.careers .textWrapper a {
+  font-size: 18px;
+  font-family: Soehne;
+  color: white;
+}
+
+.careers img {
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+/* Lilian quote */
+.lilian {
+  color: #ffffff;
+  display: flex;
+  padding: 20px 20px 100px;
+}
+
+.lilian .quote {
+  width: 50%;
+}
+
+.lilian q {
+  font-size: 55px;
+  font-family: Signifier;
+  display: block;
+  padding-right: 10px;
+}
+
+.lilian p {
+  font-size: 18px;
+  font-family: Soehne;
+}
+
+.lilian p:first-of-type {
+  font-weight: 700;
+}
+
+.lilian img {
+  width: 50%;
+}
+
+/* Join Us Section */
+
+.joinUs {
+  color: #ffffff;
+  padding: 0 20px 150px;
+}
+
+.joinUs h2 {
+  font-size: 73px;
+  font-family: Signifier;
+  font-weight: 400;
+  margin-bottom: 100px;
+}
+
+.joinUs a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  border: 1px solid #ffffff;
+  height: 88px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  font-family: Soehne;
+}
+
+.joinUs a:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* footer */
+
+footer {
+  color: #ffffff;
+  font-size: 18px;
+  font-family: Soehne;
+  padding: 0 20px;
+}
+
+footer .navigation {
+  display: flex;
+  margin-bottom: 150px;
+}
+
+footer .navigation .imageWrapper {
+  width: 20%;
+}
+
+footer .navigation ul {
+  width: 20%;
+}
+
+footer .navigation ul li:first-child {
+  font-weight: 700;
+}
+
+footer .navigation img {
+  width: 118px;
+  height: 32px;
+}
+
+.last {
+  display: flex;
+  padding: 20px;
+}
+
+.last .copyright {
+  width: 20%;
+}
+
+.last .right {
+  width: 80%;
+}
+
+.last .right ul {
+  display: flex;
+}
+
+.last li {
+  margin-right: 10px;
+}
+
+.gradient {
+  background-color: #ffffff;
+}
+
+.gradient .item {
+  background-color: #000000;
+}
+
+.gradient .item:nth-child(1) {
+  height: 23px;
+  margin-top: 0px;
+}
+
+.gradient .item:nth-child(2) {
+  height: 21px;
+  margin-top: 1px;
+}
+
+.gradient .item:nth-child(3) {
+  height: 19px;
+  margin-top: 2px;
+}
+
+.gradient .item:nth-child(4) {
+  height: 17px;
+  margin-top: 3px;
+}
+
+.gradient .item:nth-child(5) {
+  height: 15px;
+  margin-top: 4px;
+}
+
+.gradient .item:nth-child(6) {
+  height: 13px;
+  margin-top: 5px;
+}
+
+.gradient .item:nth-child(7) {
+  height: 11px;
+  margin-top: 6px;
+}
+
+.gradient .item:nth-child(8) {
+  height: 9px;
+  margin-top: 7px;
+}
+
+.gradient .item:nth-child(9) {
+  height: 7px;
+  margin-top: 8px;
+}
+
+.gradient .item:nth-child(10) {
+  height: 5px;
+  margin-top: 9px;
+}
+
+.gradient .item:nth-child(11) {
+  height: 3px;
+  margin-top: 10px;
+}
+
+.gradient .item:nth-child(12) {
+  height: 1px;
+  margin-top: 11px;
 }
