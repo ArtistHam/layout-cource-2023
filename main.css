@@ -306,6 +306,10 @@ header button {
   cursor: pointer;
 }
 
+header button:last-of-type {
+  display: none;
+}
+
 header button:hover {
   text-decoration: underline;
 }
